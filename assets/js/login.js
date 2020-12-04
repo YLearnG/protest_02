@@ -7,7 +7,7 @@ $(function() {
 
     // 去登陆账号
     $('#link-login').on('click', function() {
-        $('reg-box').hide()
         $('.login-box').show()
+        $('.reg-box').hide()
     })
 })
